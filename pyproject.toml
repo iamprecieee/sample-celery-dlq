@@ -1,0 +1,12 @@
+[project]
+name = "sample-celery-dlq"
+version = "0.1.0"
+description = "A reference implementation of the dead letter queue pattern for Celery, featuring automatic retries with exponential backoff and manual task redrive capabilities"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "celery>=5.6.2",
+    "envcipher>=0.1.2",
+    "loguru>=0.7.3",
+    "redis>=7.1.0",
+]
